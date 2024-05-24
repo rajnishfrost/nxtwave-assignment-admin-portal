@@ -1,0 +1,15 @@
+.nav-outer{
+    height: 72px;
+    max-width: 1440px;
+    padding: 20px 50px;
+}
+
+.nav-logo-img {
+    width: 82px;
+    height: 40px;
+}
+
+.button-image img {
+    height: 40px;
+    width: 40px;
+}
