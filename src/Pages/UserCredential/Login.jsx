@@ -5,6 +5,7 @@ import {login} from "../../Redux/authSlice"
 
 export default function Login() {
   const [input, setInput] = useState({});
+  // eslint-disable-next-line
   const [error, setError] = useState("");
   const dispatch = useDispatch();
 

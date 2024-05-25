@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit'
-import networkReducer from './Redux/networkSlice'
+import resourceReducer from './Redux/resourcesSlice'
 import authReducer  from './Redux/authSlice'
 
 export const store = configureStore({
   reducer: {
-    network : networkReducer ,
+    resources : resourceReducer ,
     auth : authReducer ,
   },
 })

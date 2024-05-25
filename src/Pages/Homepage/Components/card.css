@@ -1,0 +1,50 @@
+.card-div {
+    width: 320px;
+    height: 152px;
+    border-radius: 4px;
+    border: 1px solid #D7DFE9;
+    padding: 20px;
+    margin-bottom: 32px;
+}
+
+.img-div {
+    height: 44px;
+    width: 44px;
+    border: 2px solid #D7DFE9;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.card-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-div h6 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+    line-height: 24px;
+}
+
+.card-div p {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7E858E;
+    line-height: 16px;
+}
+
+.card-div a {
+    color: #0B69FF;
+    font-size: 14px;
+    line-height: 45px;
+}
+
+.card-div h5 {
+    margin: 0px;
+    color: #7E858E;
+    font-size: 14px;
+    font-weight: 400;
+}
