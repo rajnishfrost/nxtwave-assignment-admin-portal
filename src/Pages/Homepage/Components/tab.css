@@ -1,0 +1,23 @@
+.div-outer{
+    width : 200px;
+    height : 40px;
+    border: 1px solid #D7DFE9;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+.blue-tab{
+    color: white;
+    background-color: #0B69FF;
+}
+.grey-tab{
+    color: black;
+    background-color: #f0f0f0;
+}
+.div-outer:hover{
+cursor: pointer;
+opacity: 0.5;
+}
+.tab-outer{
+    padding-top: 35px;
+}

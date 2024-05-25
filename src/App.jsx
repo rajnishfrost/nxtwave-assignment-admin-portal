@@ -7,7 +7,8 @@ import Homepage from './Pages/Homepage/Homepage';
 import { useSelector } from 'react-redux';
 
 function App() {
-  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated)
+  // const isAuthenticated = useSelector((state) => state.auth.isAuthenticated)
+  const isAuthenticated = true ;
   return (
     <div>
       <Routes>

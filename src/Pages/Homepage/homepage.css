@@ -1,0 +1,27 @@
+.light-grey-bg{
+    background-color: #f9f9f9;
+    height: 50vh;
+}
+.search-box-outer{
+    max-width: 1240px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.search-box-outer input {
+    width : 648px;
+    height : 40px;
+    border: 1px solid #D7DFE9;
+    outline: none;
+    padding-left: 50px;
+    border-radius: 4px;
+}
+.search-box-outer .d-flex{
+    position: relative;
+}
+
+.search-box-outer .d-flex i{
+    position: absolute;
+    top: 14px;
+    left: 20px;
+}

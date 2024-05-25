@@ -1,7 +1,7 @@
 import React from 'react';
 import "./navbar.css"
-import logo from "../../Asserts/Images/NxtWave TM_Coloured logo 1.png";
-import profile from "../../Asserts/Images/S.png";
+import logo from "../../Asserts/SVGs/NxtWave TM_Coloured logo 1.svg";
+import profile from "../../Asserts/SVGs/S.svg";
 
 export default function Navbar() {
     return (
