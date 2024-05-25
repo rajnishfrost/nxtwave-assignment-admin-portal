@@ -1,12 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./tab.css";
 
-export default function Tab() {
-    const [tab , setTab] = useState("resource");
-console.log(tab);
-    const handleTab = (e) => {
-        setTab(e);
-    }
+export default function Tab({tab , handleTab}) {
 
   return (
     <div className='d-flex justify-center tab-outer'>
