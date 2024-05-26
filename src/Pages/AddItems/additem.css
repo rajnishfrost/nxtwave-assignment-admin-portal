@@ -1,0 +1,66 @@
+.light-grey-bg2{
+    background-color: #f9f9f9;
+    max-width: 1440px;
+    margin: auto;
+}
+.left-box{
+    flex-basis: 50%;
+}
+.right-box{
+    flex-basis: 50%;
+}
+.right-box img{
+    width: 100%;
+}
+.left-box p{
+    font-family: "Hanken Grotesk";
+}
+.form h4{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+i{
+    margin-top: 1.5px;
+}
+.form p {
+    font-family: 'Hanken Grotesk';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7E858E;
+    margin-top: 25px;
+}
+.form input{
+    width: 310px;
+    height : 30px;
+    padding: 5px;
+    border: 1px solid #D7DFE9;
+}
+.des-input{
+    width: 310px !important;
+    height : 60px !important;
+    padding: 5px;
+    border: 1px solid #D7DFE9;
+}
+.form select{
+    width: 320px;
+    height : 40px;
+    border: 1px solid #D7DFE9;
+}
+.form button{
+    height: 40px;
+    width: 93px;
+    color: white;
+    background-color: #0B69FF;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    display: block;
+    margin: auto;
+    margin-top: 45px;
+}
+.grey-bg{
+    background-color: grey !important;
+}

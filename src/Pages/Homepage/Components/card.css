@@ -48,3 +48,8 @@
     font-size: 14px;
     font-weight: 400;
 }
+.pagination-container{
+    position: absolute !important;
+    top: 98vh;
+    left: 40%;
+}

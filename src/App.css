@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Rubik', 'Hanken Grotesk' , sans-serif;
+}
 .dark {
   padding-top: 5px;
 }
@@ -55,7 +61,7 @@
 }
 
 .color-red {
-  color: red;
+  color: red !important;
 }
 
 .ml-10 {

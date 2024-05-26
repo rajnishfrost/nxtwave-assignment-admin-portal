@@ -5,9 +5,9 @@ import "./homepage.css"
 import Card from './Components/Card';
 
 export default function Homepage() {
-  const [tab , setTab] = useState("resource");
+  const [tab, setTab] = useState("resource");
   const handleTab = (e) => {
-      setTab(e);
+    setTab(e);
   }
   return (
     <div>
@@ -21,7 +21,7 @@ export default function Homepage() {
           </div>
         </div>
         <div className='px1240-min-width'>
-          <Card tab={tab}/>
+          <Card tab={tab} />
         </div>
       </div>
     </div>

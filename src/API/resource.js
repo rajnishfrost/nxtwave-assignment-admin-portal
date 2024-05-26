@@ -11,4 +11,16 @@ export const API_GET_RESOURCES = async (dispatch) => {
     }
 }
 
+export const API_POST_RESOURCES = async (payload) => {
+    try {
+        const data = await axios.post("https://media-content.ccbp.in/website/react-assignment/add_resource.json" , payload);
+        if(data.response === 200)
+            return true;
+        return false
+    } catch (error) {
+        console.log(error);
+      return false
+    }
+}
+
 

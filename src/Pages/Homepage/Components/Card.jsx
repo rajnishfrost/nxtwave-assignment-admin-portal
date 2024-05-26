@@ -20,7 +20,7 @@ export default function Card({ tab }) {
     setPaginatedData(resource?.slice(0, 6));
     setNumberOfPages(Math.ceil(((resource.length) / 6)));
     setDataLength(resource?.length);
-  }, [tab])
+  }, [tab , resource])
 
   useEffect(() => {
     setNumberOfPages(Math.ceil(((resource.length) / 6)));
@@ -38,7 +38,7 @@ export default function Card({ tab }) {
       return
     }
     const paginatedData = resource?.slice(min, max);
-    setPaginatedData(paginatedData)
+    setPaginatedData(paginatedData);
   }
 
   return (
@@ -64,7 +64,7 @@ export default function Card({ tab }) {
           })
         }
       </div>
-      <div className='d-flex justify-center'>
+      <div className='d-flex justify-center pagination-container'>
         {
           resource?.slice(0, numberOfPages)?.map((d, i) => <button onClick={() => onPaginationButton(i)} className='mr-10' key={i}>{i + 1}</button>)
         }

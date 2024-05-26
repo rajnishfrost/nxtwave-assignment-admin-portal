@@ -16,7 +16,7 @@ export default function Login() {
 
   return (
     <div>
-      <div className='d-flex justify-center' style={{ backgroundSize: "cover", backgroundPosition: "center", backgroundImage: `url(https://source.unsplash.com/random?wallpapers)`, alignItems: "center", height: "100vh" }}>
+      <div className='d-flex justify-center' style={{ backgroundSize: "cover", backgroundPosition: "center", backgroundImage: `url(https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)`, alignItems: "center", height: "100vh" }}>
         <div>
           <input min="10" max="10" className='d-block mt-10' type="number" placeholder='Phone Number' name="phone" onChange={(e) => inputChange(e)} style={{ width: "300px", height: "30px", padding: "3px" }} />
           <input className='mt-10 d-block' type="password" placeholder='Password' name="password" onChange={(e) => inputChange(e)} style={{ width: "300px", height: "30px", padding: "3px" }} />

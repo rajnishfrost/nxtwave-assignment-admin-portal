@@ -1,7 +1,8 @@
-.nav-outer{
+.nav-outer {
     max-width: 1440px;
     padding: 20px 50px;
     border-bottom: 1px solid #D7DFE9;
+    margin: auto;
 }
 
 .nav-logo-img {
@@ -13,11 +14,27 @@
     height: 40px;
     width: 40px;
 }
-.button-image button{
+
+.button-image button {
     padding: 13px 20px;
     background-color: #2DCA73;
     color: white;
     outline: none;
     border: none;
     border-radius: 5px;
+}
+
+.button-image img:hover {
+    cursor: pointer;
+}
+
+.hover-div p {
+    position: absolute;
+    top: 40px;
+    opacity: 0;
+}
+
+.hover-div:hover p {
+    opacity: 1;
+    cursor: pointer;
 }

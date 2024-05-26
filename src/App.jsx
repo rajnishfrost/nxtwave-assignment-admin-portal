@@ -7,15 +7,17 @@ import Homepage from './Pages/Homepage/Homepage';
 import { useEffect } from 'react';
 import { API_GET_RESOURCES } from './API/resource';
 import { useDispatch } from 'react-redux';
-// import { useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
+import PageNotFound from "./Pages/PageNotFound/PageNotFound"
+import AddItems from './Pages/AddItems/AddItems';
 
 function App() {
-  // const isAuthenticated = useSelector((state) => state.auth.isAuthenticated)
-  const isAuthenticated = true ;
+  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated)
   const dispatch = useDispatch();
 
   useEffect(() => {
    API_GET_RESOURCES(dispatch);
+   // eslint-disable-next-line
   }, [])
   
   return (
@@ -26,7 +28,9 @@ function App() {
         </Route>
         <Route element={<ProtectedRoute isAuthenticated={isAuthenticated} />}>
           <Route path='/' element={<Homepage />}></Route>
+          <Route path='/add-item' element={<AddItems />}></Route>
         </Route>
+        <Route path='*' element={<PageNotFound/>}></Route>
       </Routes>
     </div>
   );
