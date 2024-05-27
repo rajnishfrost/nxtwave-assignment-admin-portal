@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/nxtwave-assignment-admin-portal/static/css/main.5f936b78.css",
+    "main.js": "/nxtwave-assignment-admin-portal/static/js/main.363102fd.js",
+    "static/js/453.40524067.chunk.js": "/nxtwave-assignment-admin-portal/static/js/453.40524067.chunk.js",
+    "static/media/Group 3.svg": "/nxtwave-assignment-admin-portal/static/media/Group 3.02838be0d6f75a66869c74963f698bc6.svg",
+    "static/media/S.svg": "/nxtwave-assignment-admin-portal/static/media/S.a18e4e53661cc486cd8bf3bf0ee0da69.svg",
+    "static/media/NxtWave TM_Coloured logo 1.svg": "/nxtwave-assignment-admin-portal/static/media/NxtWave TM_Coloured logo 1.bd9f808d2f591cd41099572eebc58b3a.svg",
+    "index.html": "/nxtwave-assignment-admin-portal/index.html",
+    "main.5f936b78.css.map": "/nxtwave-assignment-admin-portal/static/css/main.5f936b78.css.map",
+    "main.363102fd.js.map": "/nxtwave-assignment-admin-portal/static/js/main.363102fd.js.map",
+    "453.40524067.chunk.js.map": "/nxtwave-assignment-admin-portal/static/js/453.40524067.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f936b78.css",
+    "static/js/main.363102fd.js"
+  ]
+}
